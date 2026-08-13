@@ -1,0 +1,9 @@
+[project]
+name = "problem-solving"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "jupyter>=1.1.1",
+    "pandas>=3.0.5",
+    "seaborn>=0.13.2",
+]
