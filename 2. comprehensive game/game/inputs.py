@@ -10,5 +10,6 @@ def get_user_input() -> rock_sissor_paper:
 
     return rock_sissor_paper[user_input]
 
+
 if __name__ == "__main__":
     print(get_user_input())

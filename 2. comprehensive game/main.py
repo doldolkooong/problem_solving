@@ -3,6 +3,7 @@ from game.prints import print_game_result
 from game.rock_sissor_paper import rsp_game
 from game.game_choice import game_choice
 from game.mukchippa import mukchippa_game
+from game.one_more import one_more_game
 
 def run_game():
     game_style = game_choice()
@@ -11,15 +12,12 @@ def run_game():
     # 선택한 게임
     if game_style == game_type.가위바위보:
         game_result = rsp_game()
-        print(game_result)
 
     elif game_style == game_type.하나빼기:
-        pass
+        game_result = one_more_game()
 
     elif game_style == game_type.묵찌빠:
         game_result = mukchippa_game()
-        print(game_result)
-
 
 
     if game_result:

@@ -35,3 +35,4 @@ class mukchippa_attack(enum.Enum):
         elif result == game_result.lose.name:
             return self.user_shield
         return self
+    
